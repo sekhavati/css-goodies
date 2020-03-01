@@ -1,0 +1,19 @@
+.content {
+  padding: 1.5rem;
+  background-color: #081b3b;
+  color: white;
+}
+
+.hollow-text {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.placeholder-text {
+  margin: 0;
+}
