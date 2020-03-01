@@ -1,0 +1,10 @@
+.content {
+  padding: 1.5rem;
+  background-color: #081b3b;
+  color: white;
+}
+
+.gradient-border {
+  padding: 0.5rem;
+  background: linear-gradient(30deg, #b392f0, #f97583);
+}
