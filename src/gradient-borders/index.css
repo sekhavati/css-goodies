@@ -4,7 +4,7 @@
   color: white;
 }
 
-.gradient-border {
+.border {
   padding: 0.5rem;
   background: linear-gradient(30deg, #b392f0, #f97583);
 }
