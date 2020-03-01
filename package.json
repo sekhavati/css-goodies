@@ -1,0 +1,18 @@
+{
+  "name": "css-goodies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sekhavati/css-goodies.git",
+  "author": "Amir Sekhavati",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "live-server ./src"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
