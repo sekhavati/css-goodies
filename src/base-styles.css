@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.goody-title {
+  text-align: center;
+}
+
+.goody-credit {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.goody-credit-citation {
+  font-style: normal;
+}
+
+.goody-container {
+  margin: 1rem;
+  padding: 2rem;
+  line-height: 1.65;
+}
