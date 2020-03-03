@@ -1,0 +1,56 @@
+.content {
+  position: relative;
+
+  padding: 1.5rem;
+  background-color: #081b3b;
+  color: white;
+}
+
+.title,
+.subtitle {
+  position: relative;
+  z-index: 200;
+}
+
+.content::after {
+  transition-property: all;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 100;
+  background-image: linear-gradient(30deg, #b392f0, #f97583);
+}
+
+.content:hover::after {
+  opacity: 0.4;
+}
+
+/***********************************************************************************
+  The styles below are not key to the example, they are for presentational purposes
+ ***********************************************************************************/
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1px;
+  background-color: grey;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
