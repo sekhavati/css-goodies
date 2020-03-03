@@ -9,20 +9,20 @@ html {
   box-sizing: inherit;
 }
 
-.goody-title {
+.inspired-title {
   text-align: center;
 }
 
-.goody-credit {
+.inspired-credit {
   text-align: center;
   font-size: 0.8rem;
 }
 
-.goody-credit_citation {
+.inspired-credit__citation {
   font-style: normal;
 }
 
-.goody-container {
+.inspired-container {
   margin: 1rem;
   padding: 2rem;
   line-height: 1.65;
