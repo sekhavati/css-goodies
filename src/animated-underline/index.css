@@ -1,0 +1,35 @@
+.animated-underline {
+  transition-property: background-size;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  background-size: 0 100%; /* width, height */
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    180deg,
+    transparent 0 95%,
+    #79b8ff 95% 100%
+  );
+}
+
+.animated-underline:hover {
+  background-size: 100% 100%; /* width, height */
+}
+
+/***********************************************************************************
+  The styles below are not key to the example, they are for presentational purposes
+ ***********************************************************************************/
+
+.animated-underline {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  color: white;
+  background-color: #24292e;
+  text-align: center;
+  padding: 2rem;
+}
