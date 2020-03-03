@@ -1,8 +1,8 @@
 {
-  "name": "css-goodies",
+  "name": "css-inspired",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:sekhavati/css-goodies.git",
+  "repository": "git@github.com:sekhavati/css-inspired.git",
   "author": "Amir Sekhavati",
   "license": "MIT",
   "private": true,
