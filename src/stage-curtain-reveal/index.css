@@ -1,0 +1,41 @@
+.hero {
+  position: relative;
+  /*overflow: hidden;*/
+}
+
+.theatre {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.theatre__curtain {
+  will-change: transform;
+  position: absolute;
+  width: 33vw;
+}
+
+.theatre__curtain--left {
+  background-color: crimson;
+
+  left: 0;
+  transform-origin: left 0;
+}
+
+.theatre__curtain--right {
+  background-color: aquamarine;
+
+  right: 0;
+  transform-origin: right 0;
+}
+
+.theatre__stage {
+  background-color: cornflowerblue;
+  display: inline-block;
+
+  will-change: transform;
+}
