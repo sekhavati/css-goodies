@@ -13,11 +13,18 @@ const buildThresholdList = () => {
 
 const onIntersected = entries => {
   entries.forEach(entry => {
+    // Assumption here that the only element being observed is the theatre
+
     document.querySelectorAll(".theatre__curtain").forEach(curtain => {
       const scaleX = 1 - entry.intersectionRatio;
-      const scaleY = 1;
-      curtain.style.transform = `matrix(${scaleX}, 0, 0, ${scaleY}, 0, 0)`;
+      curtain.style.transform = `matrix(${scaleX}, 0, 0, 1, 0, 0)`;
     });
+
+    const scale = 2 - entry.intersectionRatio; // ratio 0 , y = 1.8 | ratio 1, y = 1
+    const translateY = -30 + 30 * entry.intersectionRatio;
+    document.querySelector(
+      ".theatre__stage"
+    ).style.transform = `matrix(${scale}, 0, 0, ${scale}, 0, ${translateY})`;
   });
 };
 
