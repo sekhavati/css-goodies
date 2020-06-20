@@ -1,6 +1,6 @@
 # Preview
 
-https://sekhavati.github.io/css-inspired/
+https://sekhavati.github.io/css-goodies/
 
 # Contents
 
