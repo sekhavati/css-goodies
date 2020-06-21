@@ -1,0 +1,35 @@
+@keyframes fade-to-black {
+  from {
+    filter: grayscale(0%);
+  }
+
+  to {
+    filter: grayscale(100%);
+  }
+}
+
+.black-and-white {
+  animation-name: fade-to-black;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.segment {
+  display: inline-block;
+  width: 33%;
+  height: 50%;
+  color: white;
+  text-align: center;
+}
+
+.segment__one {
+  background-color: red;
+}
+
+.segment__two {
+  background-color: green;
+}
+
+.segment__three {
+  background-color: blue;
+}

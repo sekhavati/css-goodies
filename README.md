@@ -9,3 +9,4 @@ https://sekhavati.github.io/css-goodies/
 * [Animated Underline](./src/animated-underline/index.html)
 * [Hollow Text](./src/hollow-text/index.html)
 * [Gradient Border](./src/gradient-borders/index.html)
+* [Black and White Filter](./src/black-and-white/index.html)
